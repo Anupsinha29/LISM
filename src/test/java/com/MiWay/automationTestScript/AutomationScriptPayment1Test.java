@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 import com.MiWay.Genericutility.BaseClass;
 
 public class AutomationScriptPayment1Test extends BaseClass{
+	//testcase1
 @Test
 public void paymen1() {
 	String s1 = comman.getTextOfTheElement();
