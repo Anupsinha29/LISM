@@ -14,6 +14,7 @@ private	Properties properties;
 	 * @param key
 	 * @return
 	 */
+//chamges in file utility
 	public String getDataFromProperyfile(String key) {
 		String value = properties.getProperty(key).trim();
 		return value;
