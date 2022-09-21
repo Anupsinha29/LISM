@@ -33,7 +33,7 @@ public class BaseClass {
 		 sjavautility = java;
 		file.intializePropertyFile(IConstantUtility.Property_File_Path);
 		excel.openExcel(IConstantUtility.Excel_Path);
-
+//changes done in baseclass
 		String browser = file.getDataFromProperyfile("browser");
 		String url = file.getDataFromProperyfile("url");
 		driver = web.openBrowserwithApplication(browser, 10, url);
