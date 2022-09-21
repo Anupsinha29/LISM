@@ -13,7 +13,7 @@ public class LoginPage {
 	 @FindBy(name="password") private WebElement passwordTextField;
 	 @FindBy(xpath = "//button") private WebElement loginbutton;
 	 
-	 
+	 //changes done in Object Repository
 	 public LoginPage(WebDriver driver) {
 		 PageFactory.initElements(driver, this);
 	 }
