@@ -18,7 +18,7 @@ import org.testng.annotations.Test;
 import com.MiWay.Genericutility.BaseClass;
 
 public class AutomationScriptPayment2Test extends BaseClass{
-
+//changes done b1
 	@Test
 	public void payment2Test() {
 	comman.clickOnrequriedTab(TabNames.CLIENTS);
