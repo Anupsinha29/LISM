@@ -13,6 +13,7 @@ import com.MiWay.Genericutility.BaseClass;
 public class AutomationScriptPayment1Test extends BaseClass{
 	//testcase1 
 //testcase updated
+	//testcase updated in global repo
 @Test
 public void paymen1() {
 	String s1 = comman.getTextOfTheElement();
